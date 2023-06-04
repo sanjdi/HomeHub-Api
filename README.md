@@ -46,3 +46,6 @@ To undo last operation of a remote;
 ```sh
 /api/v1/remotes/{remoteId}/undo
 ```
+
+## System Design
+![ERD](docs/ERD.png)
