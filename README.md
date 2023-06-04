@@ -48,4 +48,4 @@ To undo last operation of a remote;
 ```
 
 ## System Design
-![ERD](docs/ERD.png)
+![ERD](src/docs/ERD.png)
