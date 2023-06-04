@@ -1,0 +1,100 @@
+{
+  "devices": [
+    {
+      "id": "0fd2cda0-fece-4ef9-bdea-a1935eb233f5",
+      "name": "Washing mechine",
+      "brand": "LG AutoWash",
+      "runState": "OFF",
+      "createdAt": "01/06/2023, 10:15:44 am",
+      "updatedAt": "04/06/2023, 11:56:47 pm"
+    },
+    {
+      "name": "Ceiling fan 1",
+      "brand": "Titan Wisper",
+      "runState": "OFF",
+      "id": "5cb02ce4-5438-4ed0-98c0-a82246ac41cf",
+      "createdAt": "02/06/2023, 6:20:46 am",
+      "updatedAt": "02/06/2023, 6:20:46 am"
+    },
+    {
+      "name": "Ceiling fan 2",
+      "brand": "Titan Wisper",
+      "runState": "ON",
+      "id": "11b60f45-bb31-4478-b59f-e316e03fa428",
+      "createdAt": "02/06/2023, 1:43:23 pm",
+      "updatedAt": "02/06/2023, 1:43:23 pm"
+    },
+    {
+      "name": "Garage Door",
+      "brand": "A4 RollerDoors",
+      "runState": "CLOSED",
+      "id": "077d4c91-c4c5-4f93-b147-11bbfc5f7b47",
+      "createdAt": "04/06/2023, 10:09:16 pm",
+      "updatedAt": "04/06/2023, 11:51:58 pm"
+    }
+  ],
+  "remotes": [
+    {
+      "id": "11b60f45-bb31-4478-b59f-e316e03fa429",
+      "brand": "Samsung HomePlus",
+      "numberOfSlots": 6,
+      "createdAt": "02/06/2023, 1:43:23 pm",
+      "updatedAt": "02/06/2023, 1:43:23 pm"
+    },
+    {
+      "id": "11b60f45-bb31-4478-b59f-e316e03fa430",
+      "brand": "Hitachi MyHome",
+      "numberOfSlots": 8,
+      "slots": [
+        {
+          "slotId": 1,
+          "deviceId": "5cb02ce4-5438-4ed0-98c0-a82246ac41cf",
+          "state": "ON"
+        },
+        {
+          "slotId": 2,
+          "deviceId": "11b60f45-bb31-4478-b59f-e316e03fa428",
+          "state": "ON"
+        }
+      ],
+      "previousActionSlotId": 8,
+      "createdAt": "02/06/2023, 1:43:23 pm",
+      "updatedAt": "04/06/2023, 10:41:08 pm"
+    },
+    {
+      "name": "Test remote 1",
+      "numberOfSlots": 2,
+      "id": "0dd9dda6-6bf8-4a0a-900a-f9bb6811a959",
+      "createdAt": "04/06/2023, 7:42:15 pm",
+      "updatedAt": "04/06/2023, 11:56:47 pm",
+      "slots": [
+        {
+          "slotId": 1,
+          "deviceId": "0fd2cda0-fece-4ef9-bdea-a1935eb233f5",
+          "state": "OFF"
+        },
+        {
+          "slotId": 2,
+          "deviceId": "077d4c91-c4c5-4f93-b147-11bbfc5f7b47",
+          "deviceName": "Garage Door",
+          "state": "CLOSED"
+        }
+      ],
+      "previousActionSlotId": 1
+    }
+  ],
+  "hubs": [
+    {
+      "id": "11b60f45-bb31-4478-b59f-e316e03fa440",
+      "owner": "John Doe",
+      "address": "12 High St, Melbourne VIC 3000 AU",
+      "userName": "john.doe@email.com",
+      "password": "a6dcde7ece76d9142f21a1e30b5fdb868ec4cd25d5537d67ac7e8c7816b0e862",
+      "remote": {
+        "id": "11b60f45-bb31-4478-b59f-e316e03fa430"
+      },
+      "createdAt": "02/06/2023, 1:43:23 pm",
+      "updatedAt": "02/06/2023, 1:43:23 pm"
+    }
+  ]
+}
