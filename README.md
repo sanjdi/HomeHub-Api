@@ -48,4 +48,5 @@ To undo last operation of a remote;
 ```
 
 ## System Design
+![SA](src/docs/SA.png)
 ![ERD](src/docs/ERD.png)
