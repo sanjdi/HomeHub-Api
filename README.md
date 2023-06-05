@@ -5,14 +5,24 @@ aXmos-HomeHub-Api is a proof-of-concept API collection of a Cloud Based Home Aut
 ![SA](src/docs/SA.png)
 
 Router from Express.js will pass HTTP requests to corresponding controller.
+
 Controller will handle HTTP requests and responses for endpoints.
+
 Service Layer contains the business logic that are exposed to Controller as services.
+
 Data Access Layer will handle Database opearations. It will export some methods for database operations to be used by Service Layer.
+
 Database will be a local JSON file.
 
 ![ERD](src/docs/ERD.png)
 
-## Setup Guide
+![CD](src/docs/CD.png)
+
+## Setup
+### Prerequisites
+[Node.js] (https://nodejs.org/en/docs)
+
+### Steps
 1. Create a folder
 ```sh
 mkdir repo
@@ -43,8 +53,6 @@ aXmos HomeHub Api is listening on port 5004
 Version 1 Docs are available on http://localhost:5004/api/v1/docs
 ```
 
-### Prerequisites
-[Node.js] 
 ## API Doc
 Once the server is up after #7 above, a fully functional swagger doc is vailable at bellow uri. It allows you to test endpoints.
 ```sh
