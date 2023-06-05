@@ -20,7 +20,7 @@ Database will be a local JSON file.
 
 ## Setup
 ### Prerequisites
-[Node.js] (https://nodejs.org/en/docs)
+* [Node.js](https://nodejs.org/en/docs)
 
 ### Steps
 1. Create a folder
@@ -70,10 +70,10 @@ To undo last operation of a remote;
 ```
 
 ## References
-[Node.js] (https://nodejs.org/en/docs)
-[Express.js] (https://expressjs.com/en/guide/routing.html)
-[Swagger] (https://swagger.io/docs/specification/about/)
-[OpenAPI Specification] (https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md)
-[REST API Design Best Practices Handbook] (https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
+* [Node.js](https://nodejs.org/en/docs)
+* [Express.js](https://expressjs.com/en/guide/routing.html)
+* [Swagger](https://swagger.io/docs/specification/about/)
+* [OpenAPI Specification](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md)
+* [REST API Design Best Practices Handbook](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
 
 
