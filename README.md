@@ -1,5 +1,5 @@
-# aXmos-HomeHub-Api
-aXmos-HomeHub-Api is a proof-of-concept API collection of a Cloud Based Home Automation system built on Node.js. 
+# HomeHub-Api
+HomeHub-Api is a Cloud Based Home Automation system built on Node.js using JavaScript. 
 
 ## System Design
 ![SA](src/docs/SA.png)
